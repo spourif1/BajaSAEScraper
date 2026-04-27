@@ -1,17 +1,21 @@
 ## Project Title
 BAJA SAE Point Predictor
 
-## Project Description
+## Project Overview
 Using the live results page provided by SAE during BAJA competitions, this code will give you project points based on the formula used for scoring points. All teams that have passed tech will have their times/distance compiled into a projective points scoreboard to allow teams to know what their time corresponds to in points. Also incorporates a points to dollar cost for the cost event. Using the HTML code, keywords are used to find times for each event which are then plugged into a dictionary for each team and scores are calculated for each event.
 
+## Purpose
+This is used because SAE does not provide point values as they most likely calculate points after all times finish the events. This tool allows teams to get a rough idea of point standings before awards are given. Can also be used to validate scores given by SAE.
+
+## Key Features
+This tool allows for completely autonomous score calculations into a formatted spreadsheet that has point calculations for every team.
 
 ## How to Run
 1. Have Python Installed and supporting libraries (BeautifulSoup4, Pandas, Selenium, Cloudscraper)
 2. Verify URLBASE is the same for the live results website (if the URL changes, this code will still work as long as you change the URL properly)
 3. Run code
 
-
-## Languages Used
+## Languages & Libraries Used
 All code is written in Python. Scraping is done using BeautifulSoup4 and Selenium Libraries, Cloudscraper is used to get around any issues with cloudflare and Pandas is used for spreadsheet generation.
 
 ## Scope
