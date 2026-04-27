@@ -16,3 +16,7 @@ All code is written in Python. Scraping is done using BeautifulSoup4 and Seleniu
 
 ## Scope
 All code is written by me except for libraries used.
+
+## Sample Output
+<img width="1512" height="645" alt="Screenshot 2026-04-26 at 10 28 52 PM" src="https://github.com/user-attachments/assets/c689debe-02d1-4347-a872-68830088219a" />
+
